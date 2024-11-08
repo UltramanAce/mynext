@@ -1,6 +1,5 @@
 import { promisePool } from '../../lib/db';
 
-// app/api/user/route.js
 export async function GET() {
   const [data] = await promisePool.query('SELECT * FROM users LIMIT 2');
   // 返回数据

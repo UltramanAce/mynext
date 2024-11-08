@@ -10,7 +10,7 @@ export const GET = () => {
       }
     });
 
-  } catch (e: any) {
+  } catch (e) {
     return NextResponse.json({status: 500, message: e.message});
   }
 }

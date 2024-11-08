@@ -18,7 +18,7 @@ export default function User() {
         } else {
           console.error('API 请求失败', res.status);
         }
-      } catch (err: any) {
+      } catch (err) {
         setError(err.message); // 捕获错误并设置错误状态
       }
     };
@@ -34,7 +34,7 @@ export default function User() {
         <p>Loading...</p>
       ) : (
         <ul>
-          {user.map((user: any) => (
+          {user.map((user) => (
             <li key={user.id}>{user.name}</li>
           ))}
         </ul>
