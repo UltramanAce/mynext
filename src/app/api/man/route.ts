@@ -1,9 +1,6 @@
-import {NextApiRequest} from 'next';
-import {NextResponse} from "next/server";
+import { NextResponse } from "next/server";
 
-export const GET = (request: NextApiRequest, context: any) => {
-  const {params} = context;
-
+export const GET = () => {
   try {
     return NextResponse.json({
       status: 200,

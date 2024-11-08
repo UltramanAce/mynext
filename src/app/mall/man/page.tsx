@@ -1,5 +1,4 @@
 const getData = async () => {
-  console.log(444)
   try {
     const res = await fetch('http://localhost:3000/api/man'); // 使用绝对路径
     if (!res.ok) {
