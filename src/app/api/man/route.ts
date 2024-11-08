@@ -1,4 +1,4 @@
-import {NextApiRequest, NextApiResponse} from 'next';
+import {NextApiRequest} from 'next';
 import {NextResponse} from "next/server";
 
 export const GET = (request: NextApiRequest, context: any) => {
@@ -9,7 +9,7 @@ export const GET = (request: NextApiRequest, context: any) => {
       status: 200,
       data:{
         sex:'男性',
-        type:'穿搭'
+        type:'工作'
       }
     });
 
