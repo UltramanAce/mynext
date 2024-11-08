@@ -46,7 +46,7 @@ export default function User() {
         <p>Loading...</p>
       ) : (
         <ul>
-          {user.map((user) => (
+          {user.map((user: User) => (
             <li key={user.id}>{user.name}</li>
           ))}
         </ul>
