@@ -1,4 +1,6 @@
 import "../public/styles/globals.css";
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -7,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <AntdRegistry>{children}</AntdRegistry>
       </body>
     </html>
   );
