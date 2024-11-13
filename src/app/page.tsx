@@ -2,7 +2,7 @@ import './styles/common.module.css'
 
 import Search from './components/search'
 import Home from './home/page'
-import PageFooter from './components/PageFooter'
+import PageFooter from './components/PageFooter/page'
 
 export default function Page() {
   return (
