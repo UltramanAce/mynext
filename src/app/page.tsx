@@ -1,13 +1,15 @@
-import styles from '../public/styles/common.module.css'
+import './styles/common.module.css'
 
 import Search from './components/search'
 import Home from './home/page'
+import PageFooter from './components/PageFooter'
 
 export default function Page() {
   return (
-    <div className={styles.title}>
+    <>
       <Search></Search>
       <Home></Home>
-    </div>
+      <PageFooter></PageFooter>
+    </>
   );
 }

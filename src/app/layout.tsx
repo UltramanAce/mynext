@@ -1,4 +1,4 @@
-import "../public/styles/globals.css";
+import "./styles/globals.css";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 
 export default function RootLayout({
