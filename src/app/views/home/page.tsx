@@ -1,9 +1,9 @@
 import '../../styles/common.module.css'
 
 import Search from '../../components/search'
-import PageFooter from '../../components/PageFooter/page'
-import SideMenu from './SideMenu'
-import Panel1 from '../../components/Panel1/page'
+import PageFooter from '../../components/pageFooter/page'
+import SideMenu from './sideMenu'
+import Panel1 from '../../components/panel1/page'
 
 export default function Home() {
   return (
