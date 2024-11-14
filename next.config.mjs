@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: ['img11.360buyimg.com', 'example.com'], // 允许的外部域名
+  },
   async redirects() {
     return [
       {
