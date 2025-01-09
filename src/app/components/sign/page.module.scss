@@ -1,0 +1,11 @@
+.wrap {
+  width: 200px;
+  height: 200px;
+  .content {
+    margin: 5px;
+  }
+  .price {
+    color: red;
+    font-weight: bold;
+  }
+}
